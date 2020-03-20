@@ -52,7 +52,7 @@ destination.addEventListener('mouseout', (e) => {
 
 const body = document.querySelector('header');
 
-body.addEventListener('scroll', (e) => {
+body.addEventListener('wheel', (e) => {
     e.target.style.backgroundColor = 'blue';
 });
 
